@@ -31,33 +31,6 @@ const Education = () => {
     },
   ];
 
-  const additionalTraining = [
-    {
-      title: 'Advanced CFD Analysis Workshop',
-      provider: 'ANSYS',
-      year: '20XX',
-      duration: '40 hours'
-    },
-    {
-      title: 'Aircraft Structures Certification Program',
-      provider: 'FAA',
-      year: '20XX',
-      duration: '80 hours'
-    },
-    {
-      title: 'Composite Materials Manufacturing',
-      provider: 'Industry Training Institute',
-      year: '20XX',
-      duration: '60 hours'
-    },
-    {
-      title: 'Leadership in Engineering',
-      provider: 'Professional Development Course',
-      year: '20XX',
-      duration: '30 hours'
-    },
-  ];
-
   return (
     <section id="education" className="education">
       <div className="education-container">
