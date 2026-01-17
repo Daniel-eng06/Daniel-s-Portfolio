@@ -41,25 +41,25 @@ const Skills = () => {
       title: 'Certified CATIA Mechanical Designer Associate',
       issuer: 'Dassault Systèmes',
       year: 'Jan 2026',
-      image: `${process.env.PUBLIC_URL}/images/cert-catia.jpg`
+      image: `${process.env.PUBLIC_URL}/images/cert-catia.jpeg`
     },
     {
       title: 'Engineering Job Simulation',
       issuer: 'GE Aerospace',
       year: 'March 2025',
-      image: `${process.env.PUBLIC_URL}/images/GE Certificate.png`
+      image: `${process.env.PUBLIC_URL}/images/GE Certificate.jpeg`
     },
     {
       title: 'Introduction to CAD, CAM, and Practical CNC Machining',
       issuer: 'Autodesk',
       year: 'Aug 2021',
-      image: `${process.env.PUBLIC_URL}/images/cert-autodesk.jpg`
+      image: `${process.env.PUBLIC_URL}/images/cert-autodesk.jpeg`
     },
     {
       title: 'Digitalization in Aerospace Industry',
       issuer: 'TUM Technische Universität München',
       year: 'Feb 2021',
-      image: `${process.env.PUBLIC_URL}/images/cert-tum.jpg`
+      image: `${process.env.PUBLIC_URL}/images/cert-tum.jpeg`
     },
   ];
 
