@@ -1,0 +1,383 @@
+.education {
+  padding: 5rem 2rem;
+  background: #f5f7fa;
+}
+
+.education-container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.education-timeline {
+  margin: 4rem 0;
+  position: relative;
+}
+
+.education-timeline::before {
+  content: '';
+  position: absolute;
+  left: 40px;
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  background: #1a4d8f;
+}
+
+.timeline-item {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 3rem;
+  position: relative;
+}
+
+.timeline-icon {
+  width: 80px;
+  height: 80px;
+  background: #1a4d8f;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  flex-shrink: 0;
+  box-shadow: 0 4px 15px rgba(26, 77, 143, 0.25);
+  position: relative;
+  z-index: 1;
+}
+
+.timeline-content {
+  flex: 1;
+  background: white;
+  padding: 2.5rem;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.timeline-content:hover {
+  transform: translateX(10px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.12);
+}
+
+.timeline-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  margin-bottom: 1.5rem;
+  gap: 2rem;
+}
+
+.timeline-content h3 {
+  font-size: 1.5rem;
+  color: #1a1a2e;
+  margin: 0 0 0.5rem 0;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.timeline-content h4 {
+  font-size: 1.2rem;
+  color: #0066cc;
+  margin: 0 0 0.5rem 0;
+  font-weight: 600;
+}
+
+.location {
+  color: #666;
+  font-size: 0.95rem;
+  margin: 0;
+}
+
+.timeline-meta {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.5rem;
+  flex-shrink: 0;
+}
+
+.period {
+  background: #1a4d8f;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.gpa {
+  background: #f8f9fa;
+  padding: 0.4rem 0.9rem;
+  border-radius: 15px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #333;
+  border: 2px solid #e9ecef;
+}
+
+.honors {
+  background: linear-gradient(135deg, #ffd700 0%, #ffed4e 100%);
+  padding: 0.4rem 0.9rem;
+  border-radius: 15px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #855d00;
+}
+
+.highlights {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.highlights li {
+  padding: 0.6rem 0;
+  color: #555;
+  font-size: 1rem;
+  line-height: 1.6;
+  position: relative;
+  padding-left: 1.5rem;
+}
+
+.highlights li::before {
+  content: '▸';
+  position: absolute;
+  left: 0;
+  color: #1a4d8f;
+  font-weight: bold;
+}
+
+.training-section,
+.awards-section,
+.publications-section {
+  margin: 4rem 0;
+}
+
+.training-section h3,
+.awards-section h3,
+.publications-section h3 {
+  font-size: 1.8rem;
+  color: #1a1a2e;
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-weight: 700;
+}
+
+.section-icon {
+  font-size: 2rem;
+}
+
+.training-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.training-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+  border-left: 4px solid #1a4d8f;
+}
+
+.training-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+}
+
+.training-card h4 {
+  font-size: 1.1rem;
+  color: #1a1a2e;
+  margin: 0 0 0.75rem 0;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.training-card .provider {
+  color: #666;
+  font-size: 0.95rem;
+  margin-bottom: 1rem;
+}
+
+.training-meta {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.training-meta .year,
+.training-meta .duration {
+  background: #f5f7fa;
+  padding: 0.4rem 0.9rem;
+  border-radius: 15px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #1a4d8f;
+}
+
+.awards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.award-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+
+.award-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+  background: linear-gradient(135deg, #fff9e6 0%, #fff 100%);
+}
+
+.award-icon {
+  font-size: 3rem;
+  flex-shrink: 0;
+}
+
+.award-content h4 {
+  font-size: 1.2rem;
+  color: #1a1a2e;
+  margin: 0 0 0.5rem 0;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.award-content .organization {
+  color: #666;
+  font-size: 0.95rem;
+  margin-bottom: 0.25rem;
+}
+
+.award-content .year {
+  color: #1a4d8f;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.education-note,
+.pub-note {
+  background: #e8f2ff;
+  border-left: 4px solid #1a4d8f;
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
+  color: #1a4d8f;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin-top: 2rem;
+}
+
+.publication-list {
+  background: white;
+  padding: 2.5rem;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+  margin-bottom: 1.5rem;
+}
+
+.publication-item {
+  padding: 1.5rem 0;
+  border-bottom: 2px solid #f0f0f0;
+}
+
+.publication-item:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.publication-item:first-child {
+  padding-top: 0;
+}
+
+.pub-authors {
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 0.5rem;
+  font-size: 0.95rem;
+}
+
+.pub-title {
+  font-size: 1.1rem;
+  color: #1a1a2e;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  line-height: 1.5;
+}
+
+.pub-venue {
+  color: #666;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+@media (max-width: 968px) {
+  .education-timeline::before {
+    left: 30px;
+  }
+
+  .timeline-icon {
+    width: 60px;
+    height: 60px;
+    font-size: 1.5rem;
+  }
+
+  .timeline-item {
+    gap: 1.5rem;
+  }
+
+  .timeline-header {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .timeline-meta {
+    align-items: flex-start;
+  }
+
+  .training-grid,
+  .awards-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .education {
+    padding: 4rem 1.5rem;
+  }
+
+  .timeline-content {
+    padding: 1.5rem;
+  }
+
+  .timeline-content h3 {
+    font-size: 1.3rem;
+  }
+
+  .timeline-content h4 {
+    font-size: 1.1rem;
+  }
+
+  .training-card,
+  .publication-list {
+    padding: 1.5rem;
+  }
+
+  .award-card {
+    flex-direction: column;
+    text-align: center;
+  }
+}

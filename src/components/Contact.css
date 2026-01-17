@@ -1,0 +1,262 @@
+.contact {
+  padding: 5rem 2rem;
+  background: white;
+}
+
+.contact-container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.contact-content {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  gap: 3rem;
+  margin-top: 4rem;
+}
+
+.info-card,
+.form-card {
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  padding: 2.5rem;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.info-card h3,
+.form-card h3 {
+  font-size: 1.8rem;
+  color: #1a1a2e;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.info-card p {
+  color: #555;
+  line-height: 1.8;
+  margin-bottom: 2rem;
+  font-size: 1.05rem;
+}
+
+.info-items {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.info-item {
+  display: flex;
+  gap: 1.25rem;
+  align-items: start;
+}
+
+.info-icon {
+  width: 50px;
+  height: 50px;
+  background: #1a4d8f;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  flex-shrink: 0;
+}
+
+.info-details h4 {
+  font-size: 0.95rem;
+  color: #666;
+  margin: 0 0 0.25rem 0;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.info-details p,
+.info-details a {
+  font-size: 1.05rem;
+  color: #1a1a2e;
+  font-weight: 600;
+  margin: 0;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.info-details a:hover {
+  color: #1a4d8f;
+}
+
+.social-links {
+  border-top: 2px solid rgba(0, 0, 0, 0.1);
+  padding-top: 2rem;
+}
+
+.social-links h4 {
+  font-size: 1.2rem;
+  color: #1a1a2e;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.social-icons {
+  display: flex;
+  gap: 1rem;
+}
+
+.social-icon {
+  width: 45px;
+  height: 45px;
+  background: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #1a4d8f;
+  transition: all 0.3s ease;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.social-icon:hover {
+  background: #1a4d8f;
+  color: white;
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(26, 77, 143, 0.25);
+}
+
+.social-icon svg {
+  width: 22px;
+  height: 22px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.form-group label {
+  font-weight: 600;
+  color: #333;
+  font-size: 0.95rem;
+}
+
+.form-group input,
+.form-group textarea {
+  padding: 0.875rem 1.25rem;
+  border: 2px solid #e9ecef;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-family: inherit;
+  transition: all 0.3s ease;
+  background: white;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: #1a4d8f;
+  box-shadow: 0 0 0 3px rgba(26, 77, 143, 0.1);
+}
+
+.form-group textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+.submit-btn {
+  padding: 1rem 2rem;
+  background: #1a4d8f;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 3px 10px rgba(26, 77, 143, 0.25);
+}
+
+.submit-btn:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(26, 77, 143, 0.35);
+  background: #15396b;
+}
+
+.submit-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.form-message {
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
+  font-weight: 500;
+  animation: slideIn 0.3s ease;
+}
+
+.form-message.success {
+  background: #d4edda;
+  color: #155724;
+  border: 2px solid #c3e6cb;
+}
+
+.form-note {
+  background: #fff3cd;
+  border-left: 4px solid #ffc107;
+  padding: 1rem 1.25rem;
+  border-radius: 8px;
+  color: #856404;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  margin-top: 0.5rem;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 968px) {
+  .contact-content {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .contact {
+    padding: 4rem 1.5rem;
+  }
+
+  .info-card,
+  .form-card {
+    padding: 2rem 1.5rem;
+  }
+
+  .info-card h3,
+  .form-card h3 {
+    font-size: 1.5rem;
+  }
+
+  .info-icon {
+    width: 45px;
+    height: 45px;
+    font-size: 1.3rem;
+  }
+
+  .social-icons {
+    flex-wrap: wrap;
+  }
+}
