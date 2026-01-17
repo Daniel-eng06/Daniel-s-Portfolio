@@ -23,7 +23,7 @@ const Skills = () => {
     { name: 'Materials Science & Material Selection', level: 90 },
     { name: 'Systems Design', level: 86 },
     { name: 'Project Management', level: 88 },
-    { name:'DFMA & GD&T', level: 90 },
+    { name: 'DFMA & GD&T', level: 90 },
   ];
 
   const softSkills = [
