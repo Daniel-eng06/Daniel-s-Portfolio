@@ -22,7 +22,7 @@ const About = () => {
             </p>
             <p>
               I have experience in GD&T tolerance analysis, manufacturing documentation, and design validation 
-              that reduce rework and improve product quality. At a previous position, I contributed to processes that 
+              that reduce rework and improve product quality. At Tormount Cimco Refrigeration Inc., I contributed to processes that 
               resulted in $200,000 in savings on rework costs. I work effectively in team 
               environments on engineering projects.
             </p>
@@ -75,7 +75,7 @@ const About = () => {
             <div className="detail-card">
               <h4>🏆 Key Contributions</h4>
               <ul>
-                <li>Contributed to systems implementation that resulted in $200,000 savings on rework costs</li>
+                <li>Contributed to systems implementation at Tormount Cimco Refrigeration Inc. that resulted in $200,000 savings on rework costs</li>
                 <li>Worked on manufacturing process improvements</li>
                 <li>Translated user requirements into engineering specifications</li>
                 <li>Participated in cross-functional engineering project teams</li>
