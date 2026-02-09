@@ -276,16 +276,55 @@
   .skills-category,
   .tools-section,
   .certifications-section {
-    padding: 2rem 1.5rem;
+    padding: 1.5rem;
   }
 
   .skills-category h3,
   .tools-section h3,
   .certifications-section h3 {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
+  }
+
+  .skill-item-compact .skill-name {
+    font-size: 0.9rem;
+  }
+
+  .skill-item-compact .skill-level {
+    font-size: 0.85rem;
+  }
+
+  .tool-tag {
+    padding: 0.6rem 1.2rem;
+    font-size: 0.85rem;
   }
 
   .certifications-grid {
     grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .cert-image {
+    height: 180px;
+  }
+
+  .cert-card h4 {
+    font-size: 1.05rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .skills {
+    padding: 3.5rem 1rem;
+  }
+
+  .skills-category,
+  .tools-section,
+  .certifications-section {
+    padding: 1.25rem;
+  }
+
+  .tool-tag {
+    padding: 0.5rem 1rem;
+    font-size: 0.8rem;
   }
 }

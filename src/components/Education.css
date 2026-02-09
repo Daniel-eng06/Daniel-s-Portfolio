@@ -359,16 +359,34 @@
     padding: 4rem 1.5rem;
   }
 
+  .education-timeline::before {
+    left: 20px;
+  }
+
+  .timeline-item {
+    gap: 1rem;
+  }
+
+  .timeline-icon {
+    width: 40px;
+    height: 40px;
+    font-size: 1.2rem;
+  }
+
   .timeline-content {
     padding: 1.5rem;
   }
 
   .timeline-content h3 {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
   }
 
   .timeline-content h4 {
-    font-size: 1.1rem;
+    font-size: 1.05rem;
+  }
+
+  .highlights li {
+    font-size: 0.95rem;
   }
 
   .training-card,
@@ -376,8 +394,29 @@
     padding: 1.5rem;
   }
 
+  .training-section h3,
+  .awards-section h3,
+  .publications-section h3 {
+    font-size: 1.5rem;
+  }
+
   .award-card {
     flex-direction: column;
     text-align: center;
+    padding: 1.5rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .education {
+    padding: 3.5rem 1rem;
+  }
+
+  .timeline-content {
+    padding: 1.25rem;
+  }
+
+  .timeline-content h3 {
+    font-size: 1.1rem;
   }
 }

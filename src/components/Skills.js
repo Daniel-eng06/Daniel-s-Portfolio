@@ -42,7 +42,20 @@ const Skills = () => {
       title: 'Certified CATIA Mechanical Designer Associate',
       issuer: 'Dassault Systèmes',
       year: 'Jan 2026',
-      image: `${process.env.PUBLIC_URL}/images/cert-catia.jpeg`
+      image: `${process.env.PUBLIC_URL}/images/Cert1.jpeg`
+    },
+    {
+      title: 'Certified 3DEXPERIENCE SIMULIA Structural Designer Associate',
+      issuer: 'Dassault Systèmes',
+      year: 'Jan 2026',
+      image: `${process.env.PUBLIC_URL}/images/Cert2.jpeg`
+     
+    },
+    {
+      title: 'Certified 3DEXPERIENCE ENOVIA Collaborative Business & Industry Innovator Associate',
+      issuer: 'Dassault Systèmes',
+      year: 'Jan 2026',
+      image: `${process.env.PUBLIC_URL}/images/Cert3.jpeg`
     },
     {
       title: 'Engineering Job Simulation',

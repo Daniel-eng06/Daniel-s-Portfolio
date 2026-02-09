@@ -258,9 +258,9 @@
   }
 
   .carousel-arrow {
-    width: 40px;
-    height: 40px;
-    font-size: 1.8rem;
+    width: 35px;
+    height: 35px;
+    font-size: 1.5rem;
   }
 
   .project-title {
@@ -274,11 +274,13 @@
   .project-category,
   .project-date {
     font-size: 0.85rem;
+    padding: 0.4rem 1rem;
   }
 
   .project-images-grid {
     grid-template-columns: 1fr;
     gap: 0.75rem;
+    margin: 1.5rem 0 3rem;
   }
 
   .detail-column h3 {
@@ -287,5 +289,30 @@
 
   .detail-column li {
     font-size: 0.95rem;
+  }
+
+  .carousel-indicators {
+    margin-top: 2rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .projects {
+    padding: 3.5rem 0.75rem;
+  }
+
+  .carousel-arrow {
+    width: 30px;
+    height: 30px;
+    font-size: 1.3rem;
+  }
+
+  .project-title {
+    font-size: 1.2rem;
+  }
+
+  .project-category,
+  .project-date {
+    font-size: 0.8rem;
   }
 }
