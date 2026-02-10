@@ -25,7 +25,7 @@ const Hero = () => {
               Experienced in aircraft component design, structural analysis, and Design for Manufacturing 
               and Assembly (DFMA) with expertise in translating user requirements into engineering specifications. 
               Proven track record delivering cost-effective, high-quality aerospace products, including saving 
-              Tormount Cimco Refrigeration Inc. $200,000 on rework through improved design processes, tolerance management, 
+              Tormount Cimco Refrigeration Inc. $20,000 on rework through improved design processes, tolerance management, 
               and manufacturing documentation.
             </p>
             <div className="hero-buttons">

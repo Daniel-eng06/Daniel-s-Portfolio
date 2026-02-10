@@ -14,7 +14,7 @@ This document outlines the comprehensive UI and content updates made to the port
 
 - Added professional work experience timeline
 - Includes positions, companies, dates, and key responsibilities
-- Highlights the $200,000 cost savings achievement
+- Highlights the $20,000 cost savings achievement
 - Focuses on practical engineering experience rather than academic publications
 
 **Files Modified:**
