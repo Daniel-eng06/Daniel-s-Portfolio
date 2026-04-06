@@ -194,22 +194,18 @@ Left Column:                Right Column:
 ### To Complete the Portfolio:
 
 1. **Add Certification Images:**
-
    - Place actual certification images in `/public/images/`
    - Name them: `cert-pe.jpg`, `cert-cswp.jpg`, etc.
 
 2. **Update Work Experience:**
-
    - Replace placeholder company names and dates
    - Add specific achievements from your career
 
 3. **Customize Project Images:**
-
    - Add project screenshots/diagrams to `/public/images/`
    - Update project data with specific details from your work
 
 4. **Verify Skills Percentages:**
-
    - Ensure the proficiency levels accurately reflect your abilities
    - Adjust soft skills list as needed
 

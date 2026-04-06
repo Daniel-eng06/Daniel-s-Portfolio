@@ -9,7 +9,7 @@ const Projects = () => {
       id: 3,
       title: 'Jig and Fixture for Aircraft Lower Seat Cabin Reinforcement',
       category: 'Aeronautical Engineering',
-      date: 'Shenyang Aerospace Teaching and Training Center, Liaoning China',
+      date: 'Shenyang Aerospace Experimental & Demonstration Center, Liaoning China',
       images: [
         `${process.env.PUBLIC_URL}/images/project2-1.jpeg`,
         `${process.env.PUBLIC_URL}/images/project2-2.jpeg`,
@@ -34,38 +34,10 @@ const Projects = () => {
       ],
     },
     {
-      id: 2,
-      title: 'Radio Controlled Plane to Test Aerodynamic Performance of the Wing',
-      category: 'Aeronautical Engineering',
-      date: 'Shenyang Aerospace Teaching and Training Center, Liaoning China',
-      images: [
-        `${process.env.PUBLIC_URL}/images/project4-1.jpeg`,
-        `${process.env.PUBLIC_URL}/images/project4-2.jpeg`,
-        `${process.env.PUBLIC_URL}/images/project4-3.jpeg`,
-        `${process.env.PUBLIC_URL}/images/project4-4.jpeg`,
-        `${process.env.PUBLIC_URL}/images/project4-5.jpeg`,
-        `${process.env.PUBLIC_URL}/images/project4-6.jpeg`,
-      ],
-      what: [
-        'Designed and built a fully functional <strong>radio-controlled airplane</strong> for <strong>aerodynamic performance testing</strong>.',
-        'Focused on <strong>lightweight construction</strong> and <strong>stable flight behavior</strong> for educational and demo use.',
-      ],
-      how: [
-        'Used <strong>CATIA V5</strong> for <strong>3D & 2D design</strong> with <strong>wind tunnel analysis</strong> for <strong>aerodynamic validation</strong>.',
-        'Performed <strong>computational fluid dynamics (CFD)</strong> analysis using <strong>ANSYS Fluent</strong> to optimize wing aerodynamics.',
-        'Manufactured parts using <strong>laser cutter</strong> and assembled structure with <strong>composite</strong> and <strong>wood materials</strong>.',
-      ],
-      results: [
-        'Successfully completed <strong>15+ stable flight tests</strong> with <strong>90% precise control</strong> and minimal vibration.',
-        'Achieved <strong>20-minute flight duration</strong> and validated aerodynamic performance with <strong>95% lift-to-drag efficiency</strong>.',
-        'Improved understanding of aerostructure behavior and lightweight design techniques.',
-      ],
-    },
-    {
       id: 1,
       title: 'Reverse Engineering Of A Vertical Stabilizer with A Jig Design and Manufacturing',
       category: 'Aeronautical Engineering',
-      date: 'Shenyang Aerospace Teaching and Training Center, Liaoning China',
+      date: 'Shenyang Aerospace Experimental & Demonstration Center, Liaoning China',
       images: [
         `${process.env.PUBLIC_URL}/images/project3-1.jpeg`,
         `${process.env.PUBLIC_URL}/images/project3-2.jpeg`,
@@ -100,7 +72,7 @@ const Projects = () => {
         `${process.env.PUBLIC_URL}/images/project1-3.jpeg`,
         `${process.env.PUBLIC_URL}/images/project1-4.jpeg`,
         `${process.env.PUBLIC_URL}/images/project1-5.jpeg`,
-        `${process.env.PUBLIC_URL}/images/project1-6.jpeg`,
+        `${process.env.PUBLIC_URL}/images/CNC Part.jpeg`,
       ],
       what: [
         'Conducted <strong>finite element analysis (FEA)</strong> on the ski handle pole base to identify and reduce excess weight.',
@@ -114,6 +86,34 @@ const Projects = () => {
         'Achieved <strong>32% weight reduction</strong> (from <strong>2.1kg to 1.43kg</strong>) without compromising performance or durability.',
         'Maintained <strong>structural integrity</strong> with maximum stress reduction of <strong>15%</strong> under load conditions.',
         'Delivered a manufacturable <strong>GD&T</strong> design, reducing <strong>production costs by 20%</strong> through material optimization.',
+      ],
+    },
+    {
+      id: 2,
+      title: 'Radio Controlled Plane to Test Aerodynamic Performance of the Wing',
+      category: 'Aeronautical Engineering',
+      date: 'Shenyang Aerospace Experimental & Demonstration Center, Liaoning China',
+      images: [
+        `${process.env.PUBLIC_URL}/images/project4-1.jpeg`,
+        `${process.env.PUBLIC_URL}/images/project4-2.jpeg`,
+        `${process.env.PUBLIC_URL}/images/project4-3.jpeg`,
+        `${process.env.PUBLIC_URL}/images/project4-4.jpeg`,
+        `${process.env.PUBLIC_URL}/images/project4-5.jpeg`,
+        `${process.env.PUBLIC_URL}/images/project4-6.jpeg`,
+      ],
+      what: [
+        'Designed and built a fully functional <strong>radio-controlled airplane</strong> for <strong>aerodynamic performance testing</strong>.',
+        'Focused on <strong>lightweight construction</strong> and <strong>stable flight behavior</strong> for educational and demo use.',
+      ],
+      how: [
+        'Used <strong>CATIA V5</strong> for <strong>3D & 2D design</strong> with <strong>wind tunnel analysis</strong> for <strong>aerodynamic validation</strong>.',
+        'Performed <strong>computational fluid dynamics (CFD)</strong> analysis using <strong>ANSYS Fluent</strong> to optimize wing aerodynamics.',
+        'Manufactured parts using <strong>laser cutter</strong> and assembled structure with <strong>composite</strong> and <strong>wood materials</strong>.',
+      ],
+      results: [
+        'Successfully completed <strong>15+ stable flight tests</strong> with <strong>90% precise control</strong> and minimal vibration.',
+        'Achieved <strong>20-minute flight duration</strong> and validated aerodynamic performance with <strong>95% lift-to-drag efficiency</strong>.',
+        'Improved understanding of aerostructure behavior and lightweight design techniques.',
       ],
     },
     {
