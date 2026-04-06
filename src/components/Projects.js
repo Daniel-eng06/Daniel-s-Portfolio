@@ -63,7 +63,7 @@ const Projects = () => {
     },
     {
       id: 4,
-      title: 'Optimized Marine Handle Pole Base',
+      title: 'Full Design and Optimization of a Marine Handle Pole Base For a Jetski',
       category: 'Mechanical Engineering',
       date: 'Freelancer for Jair Beltran, Shenzhen, China',
       images: [
