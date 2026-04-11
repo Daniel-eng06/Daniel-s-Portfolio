@@ -34,6 +34,34 @@ const Projects = () => {
       ],
     },
     {
+      id: 6,
+      title: 'Aircraft Wing Factory Layout Planning Project',
+      category: 'Manufacturing Engineering',
+      date: 'Shenyang Intelligent Manufacturing Layout Competition, Liaoning China',
+      images: [
+        `${process.env.PUBLIC_URL}/images/ProductionFullImage.jpeg`,
+        `${process.env.PUBLIC_URL}/images/PERTchart.jpeg`,
+        `${process.env.PUBLIC_URL}/images/FactoryLayout1.jpeg`,
+        `${process.env.PUBLIC_URL}/images/Presentation.jpeg`,
+        `${process.env.PUBLIC_URL}/images/Group.jpeg`,
+         `${process.env.PUBLIC_URL}/images/Presentation.jpeg`,
+      ],
+      what: [
+        'Planned and simulated a complete <strong>factory layout</strong> for aircraft wing assembly using <strong>DELMIA V5</strong>.',
+        'Developed a comprehensive <strong>production process flow</strong> and analyzed manufacturing cycle times to optimize throughput.',
+      ],
+      how: [
+        'Utilized <strong>DELMIA V5</strong> for 3D factory layout design and <strong>intelligent manufacturing process simulation</strong>.',
+        'Generated and analyzed <strong>PERT charts</strong> to optimize task sequencing and identify critical paths in the assembly line.',
+        'Integrated robotics and ergonomic workstations to ensure efficient material handling and worker safety.',
+      ],
+      results: [
+        'Streamlined assembly processes, potentially reducing overall <strong>production cycle time by 20%</strong>.',
+        'Visualized and validated the entire manufacturing workflow before physical implementation, minimizing costly layout errors.',
+        'Optimized resource allocation and floor space utilization, leading to a more <strong>efficient production environment</strong>.',
+      ],
+    },
+    {
       id: 1,
       title: 'Reverse Engineering Of A Vertical Stabilizer with A Jig Design and Manufacturing',
       category: 'Aeronautical Engineering',
